@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_SUBSCRIPTION: SubscriptionId # customize this
-  SPRING_APPS_SERVICE: petclinic-spring-apps # customize this
+  AZURE_SUBSCRIPTION: 12059a48-390e-4cf7-a7cc-3af319f4760f # customize this
+  SPRING_APPS_SERVICE: petclinic-spring-apps-20230428 # customize this
   RESOURCE_GROUP: SPRING-APPS-RG # customize this
   # ==== APPS ====:
   API_GATEWAY: api-gateway
